@@ -29,7 +29,7 @@ select * from SDT;
 select * from Khach_hang;
 select * from SDT;
 
-select * from SDT where So like'123456789';
+select * from SDT where So like'0123456789';
 select *from Khach_hang where SCM like'123456789';
 select A.*,B.SCM from SDT A
 	inner join Khach_hang B on A.KH_id=B.id
